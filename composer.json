@@ -1,6 +1,6 @@
 {
     "name": "anik/amqp-to-laravel-amqp",
-    "description": "Transition from anik/amqp to anik/laravel-amqp for Laravel 9",
+    "description": "Upgrade to Laravel 9 before migrating to anik/laravel-amqp",
     "type": "library",
     "license": "MIT",
     "authors": [
