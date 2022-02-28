@@ -1,0 +1,37 @@
+{
+    "name": "anik/amqp-to-laravel-amqp",
+    "description": "Transition from anik/amqp to anik/laravel-amqp for Laravel 9",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syed Sirajul Islam Anik",
+            "email": "sirajul.islam.anik@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "php-amqplib/php-amqplib": "^2.9 !=2.12.0|^3.0",
+        "illuminate/container": "^9.0",
+        "illuminate/pipeline": "^9.0",
+        "illuminate/support": "^9.0",
+        "laravel/helpers": "^1.2"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Anik\\Amqp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anik\\Amqp\\ServiceProviders\\AmqpServiceProvider"
+            ],
+            "aliases": {
+                "Amqp": "Anik\\Amqp\\Facades\\Amqp"
+            }
+        }
+    }
+}
