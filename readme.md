@@ -1,6 +1,13 @@
 anik/amqp-to-laravel-amqp
 ---
 
+ARCHIVED
+===
+
+This project will no longer be maintained and is archived on March 1st, 2023 as it didn't solve the intention the project was initiated with.
+
+---
+
 `anik/amqp-to-laravel-amqp` helps to upgrade to Laravel 9 (only) before migrating to `anik/laravel-amqp`
 
 You can use this package with 
