@@ -13,7 +13,7 @@ This package requires the following
 - php >= 8.0
 - ext-bcmath
 - ext-sockets
-- `illuminate/*`: `^9.0`
+- `illuminate/*`: `^9.0|^10.0`
 
 ## Installation
 The package works with Laravel, Lumen & Laravel zero. Install it via composer. 
